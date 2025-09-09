@@ -8,7 +8,7 @@ public class BuilderPatternDemo {
         director.buildBudgetPhone(builder);
         Smartphone budgetPhone = builder.getResult();
         System.out.println("Budget Phone: " + budgetPhone);
-
+        
         director.buildFlagshipPhone(builder);
         Smartphone flagshipPhone = builder.getResult();
         System.out.println("Flagship Phone: " + flagshipPhone);
