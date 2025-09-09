@@ -1,10 +1,10 @@
 package Assignment1;
 
 public class Smartphone {
-    private String screen;      // OLED или IPS
-    private String processor;   // например, Snapdragon 8 Gen 2
-    private int battery;        // mAh, например 5000
-    private int camera;         // мегапиксели, например 108
+    private String screen; 
+    private String processor; 
+    private int battery; 
+    private int camera; 
 
     public void setScreen(String screen) {
         this.screen = screen;
@@ -29,7 +29,8 @@ public class Smartphone {
                 ", processor='" + processor + '\'' +
                 ", battery=" + battery + " mAh" +
                 ", camera=" + camera + " MP" +
-                '}';
+                    '}';
     }
 }
+
 
