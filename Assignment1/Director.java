@@ -17,5 +17,3 @@ public class Director {
         builder.setCamera(108);
     }
 }
-
-
