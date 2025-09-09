@@ -4,7 +4,5 @@ public interface Builder {
     void setScreen(String type);
     void setProcessor(String processor);
     void setBattery(int capacity);
-    void setCamera(int megapixels);
+    void setCamera(int megapixels); 
 }
-
-
